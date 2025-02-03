@@ -1,0 +1,5 @@
+{
+    "WEB_TITLE": "Internationalization with Astro",
+    "WELCOME": "Hello world!",
+    "DESCRIPTION": "This is a simple example to understand how the translation system works in Astro.js"
+}

@@ -1,0 +1,13 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+
+import { getI18n } from '../i18n/config';
+
+const {currentLocale} = Astro
+const i18n = getI18n(currentLocale)
+---
+
+<Layout title={i18n.WEB_TITLE}>
+	<Welcome/>
+</Layout>
